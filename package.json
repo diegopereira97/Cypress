@@ -4,14 +4,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "cy:tests": "cypress run"
   },
-  "keywords": [],
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.1.0"
+  "devDependencies": {
+    "cypress": "^12.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+    "step_definitions": "D:\Projeto\Cypress\cypress\e2e\step_definitions"
   },
-  "devDependencies": {},
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "prettier": "^2.8.1"
+  }
 }

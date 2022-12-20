@@ -6,5 +6,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    specPattern: "cypress\e2e\features\*.feature",
+    baseUrl: "https://verz.com.br/fgts/",
+    chromeWebSecurity: false
+
   },
 });
